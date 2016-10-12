@@ -1,4 +1,4 @@
-package cn.ben.googletrainingsavingdata;
+package cn.ben.googletrainingsavingdata.fragment;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import cn.ben.googletrainingsavingdata.R;
 
 public class SharedPreferencesFragment extends Fragment implements View.OnClickListener {
 

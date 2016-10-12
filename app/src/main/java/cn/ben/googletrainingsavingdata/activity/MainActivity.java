@@ -1,9 +1,12 @@
-package cn.ben.googletrainingsavingdata;
+package cn.ben.googletrainingsavingdata.activity;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import cn.ben.googletrainingsavingdata.R;
+import cn.ben.googletrainingsavingdata.fragment.SharedPreferencesFragment;
 
 public class MainActivity extends AppCompatActivity {
 
