@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.ben.googletrainingsavingdata.SharedPreferencesFragment">
+
+    <Button
+        android:id="@+id/btn_write_pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_pref" />
+
+    <Button
+        android:id="@+id/btn_read_pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_write_pref"
+        android:text="@string/read_pref" />
+
+    <EditText
+        android:id="@+id/input_high_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_read_pref"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+
+</RelativeLayout>
