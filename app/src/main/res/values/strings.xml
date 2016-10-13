@@ -6,4 +6,18 @@
     <string name="write_pref">write new high score to shared preferences</string>
     <string name="read_pref">read high score from shared preferences</string>
     <integer name="saved_high_score_default">10</integer>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="shared_preferences_fragment">Shared Preferences</string>
+    <string name="saving_files_fragment">Saving Files</string>
+    <string name="create_a_file_in_internal_storage_using_file_constructor">create a file in internal storage using File constructor</string>
+    <string name="input_hint">Please input a file name first.</string>
+    <string name="create_file_success">"Create file success! "</string>
+    <string name="write_a_file_in_internal_storage_using_output_stream">write a file in internal storage using OutputStream</string>
+    <string name="finish_work">done</string>
+    <string name="get_temp_file">get temp file</string>
+    <string name="get_external_storage_state">get external storage state</string>
+    <string name="get_album_storage_dir">get album storage dir</string>
+    <string name="delete_files">delete files!</string>
+    <string name="reset">reset</string>
 </resources>

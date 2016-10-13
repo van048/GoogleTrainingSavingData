@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.ben.googletrainingsavingdata.fragment.SharedPreferencesFragment">
+
+    <Button
+        android:id="@+id/btn_create_internal_constructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_a_file_in_internal_storage_using_file_constructor" />
+
+    <Button
+        android:id="@+id/btn_write_internal_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_create_internal_constructor"
+        android:text="@string/write_a_file_in_internal_storage_using_output_stream" />
+
+    <Button
+        android:id="@+id/btn_get_temp_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_write_internal_stream"
+        android:text="@string/get_temp_file" />
+
+    <Button
+        android:id="@+id/btn_check_external_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_get_temp_file"
+        android:text="@string/get_external_storage_state" />
+
+    <Button
+        android:id="@+id/btn_get_album_storage_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_check_external_state"
+        android:text="@string/get_album_storage_dir" />
+
+    <Button
+        android:id="@+id/btn_delete_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_get_album_storage_dir"
+        android:text="@string/delete_files" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_delete_file"
+        android:text="@string/reset" />
+
+
+    <EditText
+        android:id="@+id/input_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/input_file_name" />
+</RelativeLayout>
