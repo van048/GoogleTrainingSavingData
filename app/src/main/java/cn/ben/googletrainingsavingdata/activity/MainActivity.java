@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import cn.ben.googletrainingsavingdata.R;
+import cn.ben.googletrainingsavingdata.fragment.SQLFragment;
 import cn.ben.googletrainingsavingdata.fragment.SavingFilesFragment;
 import cn.ben.googletrainingsavingdata.fragment.SharedPreferencesFragment;
 
@@ -31,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
     public void switchSavingFiles(@SuppressWarnings("UnusedParameters") View view) {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.fragment_container, new SavingFilesFragment());
+        fragmentTransaction.commit();
+    }
+
+    public void switchSQL(@SuppressWarnings("UnusedParameters") View view) {
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_container, new SQLFragment());
         fragmentTransaction.commit();
     }
 }

@@ -22,11 +22,19 @@
             android:text="@string/shared_preferences_fragment" />
 
         <Button
+            android:id="@+id/btn_switch_to_saving_files_fragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/btn_switch_to_shared_preferences_fragment"
             android:onClick="switchSavingFiles"
             android:text="@string/saving_files_fragment" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_switch_to_shared_preferences_fragment"
+            android:onClick="switchSQL"
+            android:text="@string/sql_fragment" />
     </RelativeLayout>
 
     <FrameLayout

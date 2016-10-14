@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.ben.googletrainingsavingdata.fragment.SharedPreferencesFragment">
+
+    <Button
+        android:id="@+id/btn_put_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/put_information" />
+
+    <Button
+        android:id="@+id/btn_read_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_put_info"
+        android:text="@string/read_information" />
+
+    <Button
+        android:id="@+id/btn_delete_my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_read_info"
+        android:text="@string/delete_entry_with_title_my_title" />
+
+    <Button
+        android:id="@+id/btn_delete_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_delete_my_title"
+        android:text="@string/delete_all_entries" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_delete_all"
+        android:text="@string/update" />
+
+    <TextView
+        android:id="@+id/tv_show_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_update" />
+
+</RelativeLayout>

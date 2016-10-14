@@ -49,7 +49,9 @@
         android:id="@+id/btn_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_delete_file"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/btn_delete_file"
+        android:layout_below="@id/btn_get_album_storage_dir"
         android:text="@string/reset" />
 
 
